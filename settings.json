@@ -1,0 +1,11 @@
+// paste object contents into your VSCode Config File [command ,]
+
+{
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "editor.formatOnSave": true,
+  // This line will allow you to use emmet in your Vue templates
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  }
+}
